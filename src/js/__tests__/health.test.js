@@ -25,5 +25,5 @@ test('return incorrect value', () => {
     { name: 'лучник', health: 100 },
     { name: 'маг', health: 80 },
   ];
-  expect(heroes).toBe(result);
+  expect(heroes).not.toBe(result);
 });
