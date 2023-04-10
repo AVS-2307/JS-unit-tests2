@@ -1,3 +1,4 @@
 export default function sortedHealth(arr) {
-  return arr.sort((a, b) => b.health - a.health);
+  const cloneArr = [...arr];
+  return cloneArr.sort((a, b) => b.health - a.health);
 }
